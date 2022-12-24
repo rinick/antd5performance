@@ -15,10 +15,10 @@
     "react-scripts": "^4.0.0"
   },
   "devDependencies": {
-    "react-scripts": "1.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "4.0.5"
   },
   "main": "index.js",
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -28,5 +28,10 @@
   "title": "Dynamic Settings - antd@5.1.0",
   "name": "dynamic-settings-antd510",
   "description": null,
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  }
 }
